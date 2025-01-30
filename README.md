@@ -20,20 +20,22 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+### 3. Run
+Run all in main.ipynb
 
 ## Project Structure
 ```
-├── hagrid/data/annotations/    # Dataset labels and notebook
-├── hand-keypoints/             # Dataset labels and notebook
-├── our_hands_dataset/          # Dataset labels and notebook
+├── hagrid/data/annotations/    # Dataset labels
+├── hand-keypoints/             # Dataset labels
+├── our_hands_dataset/          # Dataset labels
 ├── output/                     # Processed output data
-├── hand_landmarker.task        # First draft of landmarking task
-├── hpi_female_df.csv           # Dataset for female hands
-├── hpi_male_df.csv             # Dataset for male hands
-├── main.ipynb                  # Main implementation notebook
+├── hand_landmarker.task        # MediaPipe model
+├── hpi_female_df.csv           # Dataset for female HPI hand keypoints
+├── hpi_male_df.csv             # Dataset for male HPI hands keypoints
+├── main.ipynb                  # Main implementation notebook (RUN THIS)
 ├── pyproject.toml              # Configuration file
 ├── requirements.txt            # Python dependencies
-├── research_pipeline.ipynb     # Research process notebook
+├── research_pipeline.ipynb     # Research process notebook (plotting, intermediate steps)
 ```
 
 ## Citation
